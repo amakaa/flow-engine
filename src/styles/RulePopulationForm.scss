@@ -1,0 +1,42 @@
+.rule-population-form {
+	width: 100%;
+}
+
+.form-titles {
+	font-weight: bold;
+	display: inline-block;
+	float: left;
+	width: 20%;
+	margin-top: 10px;
+}
+
+.form-item {
+	padding-bottom: 30px;
+}
+
+.rule-input {
+	display: block;
+	width: 74.5%;
+	padding: 15px 15px;
+	border: 1px solid #D9DADA;
+	resize: none;
+	outline: none;
+}
+
+.error {
+  border-color: red;
+}
+
+.add-rule {
+	background: #5751fa;
+	border: none;
+	color: #ffffff;
+    padding: 15px 25px;
+    float: right;
+    cursor: pointer;
+    outline: none;
+
+    &:disabled {
+		background: #D9DADA;
+	}
+}

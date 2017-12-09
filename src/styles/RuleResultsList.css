@@ -1,0 +1,22 @@
+.rule-results {
+  width: 100%;
+  padding-top: 50px; }
+
+.results-title {
+  width: 50%;
+  display: inline-block;
+  float: left; }
+
+.failed, .passed {
+  float: right; }
+
+.rule-passed {
+  color: #4cc188; }
+
+.rule-failed {
+  color: #d63b6d; }
+
+.end {
+  color: #D9DADA; }
+
+/*# sourceMappingURL=RuleResultsList.css.map */
